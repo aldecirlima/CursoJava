@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int y = 32;
+		double x = 10.35784;
+		System.out.println(y);
+		System.out.println(x);
+		
+		// Delimitando duas casas decimais
+		// "%.2f" indica 2 casas decimais e "%n" indica quebra de linha
+		System.out.printf("%.2f%n", x);
+		System.out.println("Bom dia!");
+	}
+
+}

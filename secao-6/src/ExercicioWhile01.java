@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ExercicioWhile01 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Para entrar no sistema digite a senha:");
+		int senha = 2012;
+		
+		int pass = sc.nextInt();
+		
+		while (senha != pass) {
+			System.out.println("Senha inválida! Digite novamente:");
+			pass = sc.nextInt();
+		}
+		
+		System.out.println("Acesso permitido! Bem vindo ao sistema!");
+		sc.close();
+
+	}
+
+}
